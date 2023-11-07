@@ -1,0 +1,18 @@
+:root{
+  --bg-body:#EFF1F0;
+  --bg-primary:#ffffff;
+  --purple:#7E5DCA;
+  --text-light:#ffffffda;
+  --text-secondary:#8F8F8F;
+  --text-color-decoration:#C3C3C3;
+  --bg-footer:#2A2A28;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shadow{
+box-shadow: 4px 4px 8px #0000001c;
+}

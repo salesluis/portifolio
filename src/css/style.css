@@ -1,0 +1,12 @@
+@import './global/global.css';
+/* components */
+@import './components/components.css';
+/* header */
+@import './home/header/header.css';
+/* main */
+@import './home/main/topo.css';
+@import './home/main/projetos.css';
+@import './home/main/skils.css';
+@import './home/main/sobre.css';
+/* footer */
+@import './home/footer/footer.css';
