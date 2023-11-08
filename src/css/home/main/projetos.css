@@ -3,6 +3,7 @@
   flex-direction: column;
 }
 
+
 .projetos > h2 {
   font-size: 7rem;
   color: var(--text-color-decoration);
