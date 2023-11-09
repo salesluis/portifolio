@@ -11,6 +11,7 @@ justify-content: space-around;
 padding: 64px 0;
 }
 
+
 .formacoes span,
 .tecnologias span{
   padding: 0 6px;
@@ -23,8 +24,7 @@ padding: 64px 0;
   padding: 0 12px;
 }
 
-.formacoes-lista,
-.tecnologias-lista{
+.formacoes-lista{
   display: flex;
   flex-direction: column;
   padding: 0 12px;
@@ -44,8 +44,20 @@ position: absolute;
 left: -16px;
   top: 8px;
 }
+
+
+.tecnologias-lista{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ gap: 24px;
+ max-width: 300px;
+}
 .tecnologias-lista li{
   font-weight: 600;
+}
+.tecnologias-lista li img{
+  max-width: 60px;
 }
 @media(max-width:600px){
   .skils{
