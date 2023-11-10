@@ -17,6 +17,7 @@
 <path d="M166.896 217.979V211.021" stroke="#8844EE" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M159.938 266.688V273.646" stroke="#8844EE" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
+<rect x="80" y="582" width="140" height="3" rx="1.5" fill="#C7C7C7"/>
 </g>
 <path d="M301 216C301 216.552 300.552 217 300 217V217L300 97V97C300.552 97 301 97.4477 301 98L301 216Z" fill="#232323"/>
 <path d="M301 299C301 299.552 300.552 300 300 300V300L300 240V240C300.552 240 301 240.448 301 241L301 299Z" fill="#232323"/>
