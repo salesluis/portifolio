@@ -16,3 +16,18 @@
 .shadow{
 box-shadow: 4px 4px 8px #0000001c;
 }
+.load{
+  width: 40px;
+  height:40px;
+  border: 2px solid ;
+}
+
+.js .js-animation-scroll{
+  opacity: 0;
+  transform: translate3d(-50px, 0, 0);
+  transition: .4s;
+}
+.js .js-animation-scroll.active{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
