@@ -17,14 +17,26 @@
 box-shadow: 4px 4px 8px #0000001c;
 }
 .load{
+background-color: transparent;
   width: 40px;
   height:40px;
-  border: 2px solid ;
+  border: 8px solid var(--purple);
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+
+  animation: load 1s linear infinite ;
+}
+@keyframes load {
+  from{
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
 }
 
 .js .js-animation-scroll{
   opacity: 0;
-  transform: translate3d(-50px, 0, 0);
+  transform: translate3d(0, 50px, 0);
   transition: .4s;
 }
 .js .js-animation-scroll.active{
