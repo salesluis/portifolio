@@ -1,8 +1,24 @@
-# React + Vite
+<!--- # "Can be a image or a gift from the project pages" -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!---
+<p align="center">
+  <img src="../.github/example.png" alt="Project Name">
+</p>
+--->
 
-Currently, two official plugins are available:
+# portifólio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+portifolio pessoal
+
+## Tech Stack
+
+<!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
+
+[![My Skills](https://skillicons.dev/icons?i=vite,react,figma,styledcomponents )](https://skillicons.dev)
+
+## Getting Started
+
+1. **Clone project**: `git clone https://github.com/salesluis/portifolio.git`
+2. **Instale as Dependencias**: `npm install`
+3. **Start Developing**: `npm run dev`
+
