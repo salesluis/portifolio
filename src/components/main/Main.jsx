@@ -1,7 +1,7 @@
 import { Container, SubTitle, Title, Btn } from "./styles"
 import { ChevronDown } from "lucide-react"
 
-function Main(){
+export default function Main(){
   
   return(
     <>
@@ -19,5 +19,3 @@ function Main(){
     </>
   )
 }
-
-export default Main

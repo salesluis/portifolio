@@ -1,6 +1,6 @@
 import { Container, Itens, Btn} from "./style";
 
-function Header() {
+export default function Header() {
   return (
     <>
       <Container>
@@ -29,5 +29,3 @@ function Header() {
     </>
   )
 }
-
-export default Header
