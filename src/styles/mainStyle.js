@@ -5,7 +5,7 @@ export const Container = styled.main`
   flex-direction: column;
   gap: 64px;
   align-items: center;
-  margin: 46px auto;
+  margin: 66px auto;
   max-width: 1200px;
   padding: 90px;
   border-radius: 18px;
@@ -38,7 +38,7 @@ max-width: 700px;
   color: #3F3F3F;
 `
 
-export const Btn = styled.button`
+export const BtnMain = styled.button`
   padding: 10px 12px;
   display: flex;
   align-items: center;

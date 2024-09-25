@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Container = styled.header`
   display: flex;
   align-items: center;
@@ -22,32 +23,18 @@ export const Itens = styled.div`
   a{
     color: #000;
     font-weight: 400;
-    transition: .3s;
+    transition: .2s;
     &:hover{
       color: #284BC5;
-      font-weight: 600;
-      transform: translateY(-2px);
     }
   }
 
-
-
   .btn-contact{
-    color: #D4DEFF;
-    font-weight: 600;
-  }
-  
-`
-
-export const Btn = styled.button`
-  font-size:1.2rem;
-  padding: 8px 22px;
-  border-radius: 16px;
-  cursor: pointer;
-  background-color: #284BC5;
-  transition: .5s;
-  &:hover{
-    border-radius: 10px;
     color: #fff;
+    font-weight: 600;
+    &:hover{
+    font-weight: 600;
+    color: #fff;
+    }
   }
 `

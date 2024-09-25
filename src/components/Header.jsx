@@ -1,5 +1,5 @@
-import { Container, Itens, Btn} from "./style";
-
+import { Container, Itens} from "../styles/headerStyle";
+import { Btn } from "../styles/globalStyles";
 export default function Header() {
   return (
     <>
