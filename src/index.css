@@ -6,7 +6,9 @@
   text-decoration: none;
   font-family: inter;
 }
-
+button{
+  border: none;
+}
 body{
   background-color: #EFEFEF;
 }
