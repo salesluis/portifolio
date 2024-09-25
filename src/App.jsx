@@ -1,5 +1,6 @@
-import Header from "./components/header/Header.jsx"
-import Main from "./components/main/Main.jsx"
+import Header from "./components/Header.jsx"
+import Main from "./components/Main.jsx"
+import Project from "./components/Project.jsx"
 function App() {
 
 
@@ -7,6 +8,9 @@ function App() {
     <>
       <Header/>
       <Main/>
+      <Project/>
+      <Project/>
+      <Project/>
     </>
   )
 }
