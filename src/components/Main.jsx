@@ -12,7 +12,7 @@ export default function Main(){
         <SubTitle>
           sou <span className="negrito">desenvolvedor web</span> com  foco em <span className="negrito">front end</span>, ajudo pessoas a tirar ideias do papel e apresentar para a internet
         </SubTitle>
-        <BtnMain>
+        <BtnMain href="#projetos">
           <ChevronDown size={42} color="#BAC9FF"/>
         </BtnMain>
       </Container>

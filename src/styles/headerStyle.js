@@ -15,6 +15,33 @@ export const Container = styled.header`
     margin: 16px 12px;
   }
 `
+export const Icons = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  gap: 34px;
+  img{
+    width: 18px;
+  }
+  a{    
+    transition: .3s;
+    color: #000;
+    &:hover{
+      transform: translateY(-2px);
+      color: #284BC5;
+    }
+  }
+`
+export const Links = styled(Icons)`
+  a{
+    &:hover{
+      font-weight:600;
+      transform: translateY(-2px);
+      color: #284BC5;
+    }
+  }
+`
+
 export const Itens = styled.div`
   display: flex;
   align-items: center;

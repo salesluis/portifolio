@@ -38,7 +38,7 @@ max-width: 700px;
   color: #3F3F3F;
 `
 
-export const BtnMain = styled.button`
+export const BtnMain = styled.a`
   padding: 10px 12px;
   display: flex;
   align-items: center;

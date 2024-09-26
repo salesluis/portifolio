@@ -1,10 +1,10 @@
-import { Container, Itens} from "../styles/headerStyle";
+import { Container, Icons, Links} from "../styles/headerStyle";
 import { Btn } from "../styles/globalStyles";
 export default function Header() {
   return (
     <>
       <Container>
-          <Itens>
+          <Icons>
             <a href="#">
               <img className="home" src="./src/assets/home.svg" alt="icon house" />
             </a>
@@ -14,17 +14,14 @@ export default function Header() {
             <a href="https://github.com/salesluis" target="_blank">
               <img className="github" src="./src/assets/github.svg" alt="icon github"/>
             </a>
-          </Itens>
+          </Icons>
 
-          <Itens>
+          <Links>
             <a href="#sobre">sobre</a>
             <a href="#projetos">projetos</a>
             <a href="#techs">techs</a>
-          </Itens>
-
-          <Itens>   
+          </Links>
             <Btn className="btn-contact">contato</Btn>
-          </Itens>
       </Container>
     </>
   )
