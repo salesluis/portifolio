@@ -14,4 +14,21 @@ export const Btn = styled.a`
     border-radius: 10px;
     color: #D4DEFF;
   }
+    @media (max-width: 800px) {
+      margin: 1px;
+      font-size: 1rem;
+    }
+    @media (max-width: 600px) {
+      padding: 8px 18px;
+      font-size: .8rem;
+      border-radius: 12px;
+  }
+  @media (max-width: 500px) {
+      padding: 6px 14px;
+      font-weight: 500;
+      font-size: .8rem;
+      border-radius: 10px;
+      margin: 0;
+
+  }
 `

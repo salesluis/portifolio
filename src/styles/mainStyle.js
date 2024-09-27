@@ -18,10 +18,18 @@ export const Container = styled.main`
     color: #000;
   }
   @media (max-width: 1220px) {
+    gap: 34px;
     margin: 46px 12px;
+
   }
-  @media (max-width: 820px) {
+  @media (max-width: 800px) {
+    padding: 80px;
     margin: 36px 12px;
+  }
+  @media (max-width: 600px) {
+    padding: 60px 12px;
+    gap: 18px;
+    margin: 28px 12px;
   }
 `
 
@@ -29,13 +37,26 @@ export const Title = styled.h1`
   font-size: 2.4rem;
   font-weight: 200;
   color: #3F3F3F;
+  @media (max-width: 800px) {
+    font-size: 2rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 1.5rem;
+  }
 `
 
 export const SubTitle = styled.h2`
-max-width: 700px;
+  max-width: 700px;
   font-size: 2.8rem;
   font-weight: 200;
   color: #3F3F3F;
+  @media (max-width: 800px) {
+    max-width: fit-content;
+    font-size: 2.3rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 1.8rem;
+  }
 `
 
 export const BtnMain = styled.a`
@@ -49,5 +70,9 @@ export const BtnMain = styled.a`
   transition: .5s;
   &:hover{
     border-radius: 18px;
+  }
+  @media (max-width: 600px) {
+    padding: 4px 6px;
+    border-radius: 22px;
   }
 `

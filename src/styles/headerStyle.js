@@ -14,6 +14,12 @@ export const Container = styled.header`
   @media (max-width: 1220px) {
     margin: 16px 12px;
   }
+  @media (max-width: 800px) {
+    padding: 4px 30px;
+  }
+  @media (max-width: 600px) {
+    padding: 4px 10px;
+  }
 `
 export const Icons = styled.div`
   display: flex;
@@ -22,6 +28,9 @@ export const Icons = styled.div`
   gap: 34px;
   img{
     width: 18px;
+    @media (max-width: 600px) {
+      width:14px ;
+  }
   }
   a{    
     transition: .3s;
@@ -30,9 +39,20 @@ export const Icons = styled.div`
       transform: translateY(-2px);
       color: #284BC5;
     }
+    
+  }
+  @media (max-width: 600px) {
+    gap: 24px;
+    font-size: .8rem;
+  }
+  @media (max-width: 500px) {
+    gap: 8px;
+    
   }
 `
 export const Links = styled(Icons)`
+  display: flex;
+  margin: 0 auto;
   a{
     &:hover{
       font-weight:600;
@@ -42,26 +62,3 @@ export const Links = styled(Icons)`
   }
 `
 
-export const Itens = styled.div`
-  display: flex;
-  align-items: center;
-  padding: 6px;
-  gap: 34px;
-  a{
-    color: #000;
-    font-weight: 400;
-    transition: .2s;
-    &:hover{
-      color: #284BC5;
-    }
-  }
-
-  .btn-contact{
-    color: #fff;
-    font-weight: 600;
-    &:hover{
-    font-weight: 600;
-    color: #fff;
-    }
-  }
-`

@@ -6,7 +6,7 @@ export const DescriptionProject = () => {
     <ContainerDescription>
       <h1>nome do projeto</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis officia sit excepturi obcaecati quidem asperiores incidunt illum. Totam modi amet at neque assumenda itaque quaerat sapiente ea laborum alias.
+        sit excepturi obcaecati quidem asperiores incidunt illum. Totam modi amet at neque assumenda itaque quaerat sapiente ea laborum alias.
       </p>
       <Btns>
         <Btn>repositório</Btn>

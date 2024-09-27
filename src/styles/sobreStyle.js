@@ -25,6 +25,15 @@ export const ContainerSobre = styled.div`
     max-width: 720px;
     line-height: 22px;
     letter-spacing: .6px;
+    @media (max-width: 600px) {
+      font-size: .9rem;
+      line-height: 20px;
+      letter-spacing: .2px;
+  }
+  }
+  @media (max-width: 600px) {
+    gap: 24px;
+    padding: 38px 18px;      
   }
 `
 export const ContainerTechs = styled(ContainerSobre)`
@@ -44,6 +53,12 @@ gap: 12px;
 @media (max-width: 800px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 600px) {
+    text-align:start;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
   }
   
 `
