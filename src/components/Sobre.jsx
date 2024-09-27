@@ -1,5 +1,6 @@
 
 import { Container, ContainerSobre, ContainerTechs, Title } from "../styles/sobreStyle"
+import Skils from "./Skils"
 export default function Sobre(){
   return (
     <Container>
@@ -10,6 +11,7 @@ export default function Sobre(){
   
       <ContainerTechs>
         <Title>habilidades</Title>
+        <Skils/>
       </ContainerTechs>
     </Container>
   )

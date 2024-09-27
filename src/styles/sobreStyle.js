@@ -36,8 +36,18 @@ export const Title = styled.h1`
   font-weight: 400;
 `
 
-export const ListHabilidades = styled.ul`
-  display: flex;
-  flex-direction: column;
+export const ListSkils = styled.ul`
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+@media (max-width: 800px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+`
+export const Skill = styled.li`
+
 `
 
