@@ -8,11 +8,8 @@ export default function Header() {
             <a href="#">
               <img className="home" src="./src/assets/home.svg" alt="icon house" />
             </a>
-            <a href="https://www.linkedin.com/in/luis-felipe-596586285/" target="_blank">
-              <img className="linkedin" src="./src/assets/linkedin.svg" alt="icon linkedin" />
-            </a>
-            <a href="https://github.com/salesluis" target="_blank">
-              <img className="github" src="./src/assets/github.svg" alt="icon github"/>
+            <a href="#" target="_blank">
+              <img className="linkedin" src="./src/assets/curriculo.svg" alt="icon linkedin" />
             </a>
           </Icons>
 
