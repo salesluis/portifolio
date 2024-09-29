@@ -29,6 +29,26 @@ export const Btn = styled.a`
       font-size: .8rem;
       border-radius: 10px;
       margin: 0;
-
   }
+`
+export const TitleSectionContainer = styled.div`
+  max-width: 1150px;
+  display: flex;
+  gap: 42px;
+  align-items: center;
+  margin: 36px auto;
+  h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #222;
+    span{
+      color: #284BC5;
+    }
+  }
+`
+
+export const Decoration = styled.span`
+  width: 100%;
+  height: 2px;
+  background-color: #AFC0FF;
 `

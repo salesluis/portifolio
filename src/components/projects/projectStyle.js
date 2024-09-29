@@ -1,22 +1,35 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  max-width: 1220px;
-  display: grid;
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   margin: 0 auto;
-  
-  img{
-    max-width: 560px;
-  }
+
 `
 
 export const ContainerProject = styled.div`
   display: flex;
-  margin: 12px;
+  margin: 24px;
   flex-direction: column;
   align-items: start;
+  img{
+    max-width: 560px;
+    @media (max-width: 1170px) {
+      max-width: 460px; 
+    }
+    @media (max-width: 1300px) {
+    max-width: 400px; 
+    }
+    @media (max-width: 900px) {
+      max-width: 500px; 
+    }
+    @media (max-width: 500px) {
+      max-width: 360px; 
+    }
+  }
 `
 
 export const ContainerTitle = styled.div`
@@ -41,6 +54,7 @@ export const ContainerTitle = styled.div`
     }
   `
 
+
 export const DescriptionProject = styled.div`
   display: flex;
   margin: 4px 0;
@@ -58,5 +72,8 @@ export const DescriptionProject = styled.div`
   p{
   line-height: 20px;
   max-width: 50ch;
+  @media (max-width: 1170px) {
+      max-width: 40ch; 
+    }
 }
 `
