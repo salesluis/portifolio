@@ -5,10 +5,10 @@ export default function Projects() {
   return(
     <> 
       <TitleSectionContainer>
+        <Decoration></Decoration> 
         <h1>
           Projects<span>.</span>
         </h1>
-        <Decoration></Decoration> 
       </TitleSectionContainer> 
       <Container>
       <Project/>
