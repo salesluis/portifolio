@@ -1,5 +1,5 @@
-import { Container, Icons, Links} from "../styles/headerStyle";
-import { Btn } from "../styles/globalStyles";
+import { Container, Icons, Links} from "./headerStyle";
+import { Btn } from "../../styles/globalStyles";
 export default function Header() {
   return (
     <>
@@ -14,11 +14,11 @@ export default function Header() {
           </Icons>
 
           <Links>
-            <a href="#sobre">sobre</a>
-            <a href="#projetos">projetos</a>
-            <a href="#techs">techs</a>
+            <a href="#about">sobre</a>
+            <a href="#projects">projetos</a>
+            <a href="#about">skils</a>
           </Links>
-            <Btn className="btn-contact">contato</Btn>
+            <Btn id="#footer" className="btn-contact">contato</Btn>
       </Container>
     </>
   )

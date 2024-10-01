@@ -1,7 +1,7 @@
 
-import Footer from "./components/Footer.jsx"
-import Header from "./components/Header.jsx"
-import Main from "./components/Main.jsx"
+import Footer from "./components/footer/Footer.jsx"
+import Header from "./components/header/Header.jsx"
+import Main from "./components/main/Main.jsx"
 import Projects from "./components/projects/Projects.jsx"
 import About from "./components/about/About.jsx"
 

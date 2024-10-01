@@ -1,11 +1,11 @@
 
-import { ArrowRight, Instagram, Linkedin, MessageCircle, Terminal } from "lucide-react"
+import { ArrowRight, BookOpen, Instagram, Linkedin, MessageCircle, Terminal } from "lucide-react"
 import { Decoration, TitleSectionContainer } from "../../styles/globalStyles"
 import { Container, AboutTextContainer, AboutTechContainer, TechsContainer, Title, ItemTech, Links } from "./aboutStyle"
 export default function About(){
   return(
     <>
-      <TitleSectionContainer>
+      <TitleSectionContainer id="about">
         <h1>About<span>.</span></h1>
         <Decoration></Decoration>
       </TitleSectionContainer>
@@ -27,7 +27,7 @@ export default function About(){
           </a>
         </Links>
         </AboutTextContainer>
-        <AboutTechContainer>
+        <AboutTechContainer id="techs">
             <TechsContainer>
               <Title>
                 <Terminal color="#284BC5" />
@@ -38,20 +38,22 @@ export default function About(){
                 <li>CSS</li>
                 <li>Styled-components</li>
                 <li>GitHub</li>
-                <li>Figma</li>
-                <li>CorelDraw</li>
+                <li>JavaScript</li>
+                <li>Styled-Components</li>
+                <li>ReactJS</li>
                 <li>Bash</li>
               </ItemTech>
             </TechsContainer>
             <TechsContainer>
               <Title>
-                <Terminal color="#284BC5" />
+              <BookOpen color="#284BC5"/>
                 <h2>Fora da Tech</h2>
               </Title>
               <ItemTech>
                 <li>Psicologia</li>
                 <li>filosofia</li>
                 <li>Muay Thai</li>
+                <li>CorelDraw</li>
                 <li>etc...</li>
               </ItemTech>
             </TechsContainer>

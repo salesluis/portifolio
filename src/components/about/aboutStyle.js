@@ -16,8 +16,7 @@ export const AboutTextContainer = styled.div`
   flex-direction: column;
   gap: 32px;
   @media (max-width: 500px) {
-    gap: 16px;
-    
+    gap: 16px;   
   }
   p{
     max-width: 60ch;
@@ -25,11 +24,10 @@ export const AboutTextContainer = styled.div`
   }
 `
 
-export const AboutTechContainer = styled(AboutTextContainer)`
+export const AboutTechContainer = styled.div`
 display: flex;
 flex-direction: column;
-gap: 32px;
-padding: 0 8px;
+justify-content: flex-start;
 @media (max-width: 650px) {
   flex-direction: row;
 }
@@ -43,7 +41,7 @@ export const TechsContainer = styled.div`
 display: flex;
 flex-direction: column;
 gap: 18px;
-margin:32px 8px;
+margin:0 8px 8px 8px;
 margin-bottom: 18px;
 `
 export const Title = styled.div`

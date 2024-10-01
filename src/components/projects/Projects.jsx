@@ -4,7 +4,7 @@ import { Decoration, TitleSectionContainer } from "../../styles/globalStyles"
 export default function Projects() {
   return(
     <> 
-      <TitleSectionContainer>
+      <TitleSectionContainer id="projects">
         <Decoration></Decoration> 
         <h1>
           Projects<span>.</span>
